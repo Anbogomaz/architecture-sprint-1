@@ -1,0 +1,223 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Архитектура системы" id="alNaFd67XFSo5KDnkcdh">
+    <mxGraphModel dx="3561" dy="2173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-4" value="Платежные Шлюзы" style="swimlane;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-480" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-5" value="TurboPay" style="text;strokeColor=none;fillColor=none;align=center;" vertex="1" parent="BT3ay34Hq2d47pW6Eljk-4">
+          <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-6" value="FastMoney" style="text;strokeColor=none;fillColor=none;align=center;" vertex="1" parent="BT3ay34Hq2d47pW6Eljk-4">
+          <mxGeometry x="10" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-7" value="Яндекс Pay" style="text;strokeColor=none;fillColor=none;align=center;" vertex="1" parent="BT3ay34Hq2d47pW6Eljk-4">
+          <mxGeometry x="10" y="110" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-8" value="API Gateway" style="rounded=1;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-9" value="Auth Service" style="rounded=1;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-10" value="Product Service" style="rounded=1;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-11" value="Cart Service" style="rounded=1;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-12" value="Order Service" style="rounded=1;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-13" value="Payment Service" style="rounded=1;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-14" value="Notification Service" style="rounded=1;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-15" value="Content Service" style="rounded=1;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-16" value="Support Service" style="rounded=1;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-17" value="Reporting Service" style="rounded=1;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="910" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-18" value="Auth DB" style="shape=cylinder3;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="610" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-19" value="Product DB" style="shape=cylinder3;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="630" y="250" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-20" value="Cart DB" style="shape=cylinder3;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-21" value="Order DB" style="shape=cylinder3;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-22" value="Payment DB" style="shape=cylinder3;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-500" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-23" value="Notification DB" style="shape=cylinder3;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="610" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-24" value="Content DB" style="shape=cylinder3;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="-240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-25" value="Support DB" style="shape=cylinder3;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="270" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-26" value="Reporting DB" style="shape=cylinder3;whiteSpace=wrap;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="930" y="620" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-27" value="1. Запросы Пользователя" style="endArrow=classic;html=1;strokeColor=#FF0000;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-62" target="BT3ay34Hq2d47pW6Eljk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-28" value="2. Запросы Администратора" style="endArrow=classic;html=1;strokeColor=#FF0000;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-63" target="BT3ay34Hq2d47pW6Eljk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-29" value="3. Запросы Оператора" style="endArrow=classic;html=1;strokeColor=#FF0000;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-64" target="BT3ay34Hq2d47pW6Eljk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-30" value="4. Запросы аутентификации/авторизации" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-8" target="BT3ay34Hq2d47pW6Eljk-9">
+          <mxGeometry x="0.0632" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-31" value="5. Запросы каталога товаров" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-8" target="BT3ay34Hq2d47pW6Eljk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-32" value="6. Запросы управления корзиной" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-8" target="BT3ay34Hq2d47pW6Eljk-11">
+          <mxGeometry x="0.6044" y="-6" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-33" value="7. Запросы управления заказами" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-8" target="BT3ay34Hq2d47pW6Eljk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-34" value="8. Запросы инициации платежей" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-8" target="BT3ay34Hq2d47pW6Eljk-13">
+          <mxGeometry x="0.6154" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-35" value="9. Запросы контента" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-8" target="BT3ay34Hq2d47pW6Eljk-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-36" value="10. Запросы тикетов поддержки" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-8" target="BT3ay34Hq2d47pW6Eljk-16">
+          <mxGeometry x="-0.5927" y="-17" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-37" value="11. Запрос отчетов" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-8" target="BT3ay34Hq2d47pW6Eljk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-38" value="12. Запрос данных товара для заказа" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-12" target="BT3ay34Hq2d47pW6Eljk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-39" value="13. Запрос данных корзины для заказа" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-12" target="BT3ay34Hq2d47pW6Eljk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-40" value="14. Запрос данных пользователя" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-12" target="BT3ay34Hq2d47pW6Eljk-9">
+          <mxGeometry x="0.5675" y="-20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1150" y="-120" />
+              <mxPoint x="1150" y="710" />
+              <mxPoint x="440" y="710" />
+              <mxPoint x="440" y="600" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-41" value="15. Создание платежа для заказа" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-12" target="BT3ay34Hq2d47pW6Eljk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-42" value="16. Взаимодействие со шлюзом" style="endArrow=classic;html=1;strokeColor=#000000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-13" target="BT3ay34Hq2d47pW6Eljk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-43" value="17. Callback о статусе платежа" style="endArrow=classic;html=1;strokeColor=#000000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-4" target="BT3ay34Hq2d47pW6Eljk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-44" value="18. Уведомление о статусе оплаты" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-13" target="BT3ay34Hq2d47pW6Eljk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-45" value="19. Запрос уведомления о заказе" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-12" target="BT3ay34Hq2d47pW6Eljk-14">
+          <mxGeometry x="0.4728" y="20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="-160" />
+              <mxPoint x="1200" y="-160" />
+              <mxPoint x="1200" y="730" />
+              <mxPoint x="80" y="730" />
+              <mxPoint x="80" y="590" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-46" value="20. Запрос уведомления о регистрации" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-9" target="BT3ay34Hq2d47pW6Eljk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-47" value="21. Запрос уведомления о тикете" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-16" target="BT3ay34Hq2d47pW6Eljk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-48" value="22. Запрос данных заказов (Read-Only)" style="endArrow=classic;html=1;strokeColor=#FF0000;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-17" target="BT3ay34Hq2d47pW6Eljk-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="-80" />
+              <mxPoint x="730" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-49" value="23. Запрос данных товаров (Read-Only)" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-17" target="BT3ay34Hq2d47pW6Eljk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-50" value="24. Запрос данных пользователей (Read-Only)" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-17" target="BT3ay34Hq2d47pW6Eljk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-51" value="25. R/W" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-9" target="BT3ay34Hq2d47pW6Eljk-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-52" value="26. R/W" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-10" target="BT3ay34Hq2d47pW6Eljk-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-53" value="27. R/W" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-11" target="BT3ay34Hq2d47pW6Eljk-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-54" value="28. R/W" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-12" target="BT3ay34Hq2d47pW6Eljk-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-55" value="29. R/W" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-13" target="BT3ay34Hq2d47pW6Eljk-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-56" value="30. R/W" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-14" target="BT3ay34Hq2d47pW6Eljk-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-57" value="31. R/W" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-15" target="BT3ay34Hq2d47pW6Eljk-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-58" value="32. R/W" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-16" target="BT3ay34Hq2d47pW6Eljk-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-59" value="33. R/W (Aggregated Data)" style="endArrow=classic;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="BT3ay34Hq2d47pW6Eljk-17" target="BT3ay34Hq2d47pW6Eljk-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-62" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-63" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-64" value="Оператор поддержки" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-65" value="Легенда потоков" style="text;strokeColor=#330000;fillColor=none;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-500" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BT3ay34Hq2d47pW6Eljk-99" value="1.&#x9;Запросы Клиента→ API Gateway&#xa;2.&#x9;Запросы Администратора → API Gateway&#xa;3.&#x9;Запросы Оператора → API Gateway&#xa;4.&#x9;Запросы аутентификации/авторизации (API → Auth Service)&#xa;5.&#x9;Запросы каталога товаров (API → Product Service)&#xa;6.&#x9;Запросы управления корзиной (API → Cart Service)&#xa;7.&#x9;Запросы управления заказами (API → Order Service)&#xa;8.&#x9;Запросы инициации платежей (API → Payment Service)&#xa;9.&#x9;Запросы контента (API → Content Service)&#xa;10.&#x9;Запросы тикетов поддержки (API → Support Service)&#xa;11.&#x9;Запрос отчетов (API → Reporting Service)&#xa;12.&#x9;Запрос данных товара для заказа (Order → Product)&#xa;13.&#x9;Запрос данных корзины для заказа (Order → Cart)&#xa;14.&#x9;Запрос данных пользователя (Order → Auth)&#xa;15.&#x9;Создание платежа для заказа (Order → Payment)&#xa;16.&#x9;Взаимодействие со шлюзом (Payment → Платежные шлюзы)&#xa;17.&#x9;Callback о статусе платежа (Платежные шлюзы → Payment)&#xa;18.&#x9;Уведомление о статусе оплаты (Payment → Order)&#xa;19.&#x9;Запрос уведомления о заказе (Order → Notification)&#xa;20.&#x9;Запрос уведомления о регистрации (Auth → Notification)&#xa;21.&#x9;Запрос уведомления о тикете (Support → Notification)&#xa;22.&#x9;Запрос данных заказов (Reporting → Order, Read-Only)&#xa;23.&#x9;Запрос данных товаров (Reporting → Product, Read-Only)&#xa;24.&#x9;Запрос данных пользователей (Reporting → Auth, Read-Only)&#xa;25.&#x9;Чтение/запись данных (Auth Service → Auth DB)&#xa;26.&#x9;Чтение/запись данных (Product Service → Product DB)&#xa;27.&#x9;Чтение/запись данных (Cart Service → Cart DB)&#xa;28.&#x9;Чтение/запись данных (Order Service → Order DB)&#xa;29.&#x9;Чтение/запись данных (Payment Service → Payment DB)&#xa;30.&#x9;Чтение/запись данных (Notification Service → Notification DB)&#xa;31.&#x9;Чтение/запись данных (Content Service → Content DB)&#xa;32.&#x9;Чтение/запись данных (Support Service → Support DB)&#xa;33.&#x9;Чтение и запись агрегированных данных (Reporting Service → Reporting DB)&#xa;" style="rounded=0;whiteSpace=wrap;strokeColor=#330000;fillColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-470" width="410" height="520" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
